@@ -1,0 +1,159 @@
+.list {
+  padding: 30px 75px 10px 30px;
+  position: relative;
+  background: #042b3e;
+  /* border-top: 50px solid #03a9f4; */
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+}
+
+.list h2 {
+  color: rgb(164, 172, 179);
+  font-size: 30px;
+  padding: 10px 0;
+  margin-left: 10px;
+  display: inline-block;
+  border-bottom: 4px solid #fff;
+}
+
+.list .label1 {
+  position: relative;
+  display: block;
+  margin: 40px;
+  color: rgb(170, 156, 156);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.list input[type="checkbox"] {
+  -webkit-appearance: none;
+}
+
+.list i {
+  position: absolute;
+  top: 2px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border: 2px solid rgb(182, 184, 187);
+}
+
+.list input[type="checkbox"]:checked ~ i {
+  top: 1px;
+  border-top: none;
+  border-right: none;
+  height: 15px;
+  width: 25px;
+  transform: rotate(-45deg);
+}
+
+.list span {
+  position: relative;
+  left: 40px;
+  transition: 0.5s;
+}
+
+.list span:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  transform: translateY(-50%) scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+.list input[type="checkbox"]:checked ~ span:before {
+  transform: translateY(-50%) scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+.list input[type="checkbox"]:checked ~ span {
+  color: #154e6b;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  padding: 40px;
+  background: #1d619c48;
+}
+
+.inputField {
+  position: relative;
+  height: 40px;
+  width: 100%;
+}
+
+.inputField input[type="text"] {
+  position: absolute;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  font-size: 15px;
+  color: #fff;
+  width: 100%;
+}
+
+.inputField .addLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #555;
+  pointer-events: none;
+  display: block;
+  transition: 0.5s;
+}
+
+.inputField input[type="text"]:focus + .addLabel {
+  transform: translateY(-35px);
+  font-size: 14px;
+  color: #fff;
+  background: #ff006a;
+  padding: 2px 6px;
+}
+
+.inputField .span2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  background: #555;
+  width: 100%;
+  height: 2px;
+}
+
+.inputField .span2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00b0ff;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+}
+
+.btn3 {
+  margin-top: 20px;
+  border: none;
+  box-shadow: none;
+  padding: 10px 25px;
+  background: #333;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn3:hover {
+  background: #00bcd4;
+}

@@ -1,0 +1,42 @@
+nav {
+  position: relative;
+  display: flex;
+  height: 40px;
+  padding: 7px;
+  background: #052746;
+}
+
+nav .a {
+  position: relative;
+  margin: 0 5px;
+  color: #0a6ab9;
+  text-decoration: none;
+}
+
+/* nav #marker {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background:red;
+  bottom: -8px;
+  transition: 0.5s;
+  border-radius: 4px;
+} */
+
+.a:hover {
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+nav #marker {
+  display: flex;
+  /* flex-direction: row;
+  justify-content: space-evenly; */
+}
+
