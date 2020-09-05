@@ -29,6 +29,5 @@ Features below will be added soon:
 
 `react-redux-todo-list` exists to manage your tasks, be effective and don't forget any good ideas which can change this world.
 
-Author
-
+## Author ✍️
 Alex Shostka [@alex-shostka](https://github.com/alex-shostka)
