@@ -1,6 +1,7 @@
-react-redux-todo-list
+<p align="center">
+react-redux-todo-list </p>
 
-Create and store your tasks - be effective - be amazing
+<p align="center">Create and store your tasks - be effective - be amazing</p>
 
 ![Alt text](frontend/public/images/firstpage_demonstration.gif?raw=true "homepage")
 
@@ -9,11 +10,11 @@ Create and store your tasks - be effective - be amazing
 ![Alt text](frontend/public/images/sing_up.png?raw=true "signUp")
 
 
-Core characteristics
--React-Redux
--Thunk
--CSS & JS for animation and effects
--Node.js + Express, MongoDB + Mongoose;
+## Core characteristics
+- React-Redux
+- Thunk
+- CSS & JS for animation and effects
+- Node.js + Express, MongoDB + Mongoose;
 
 Currently supported feature set:
 
@@ -21,12 +22,13 @@ Currently supported feature set:
 - signup for saving tasks and manage you profile
 
 Features below will be added soon:
--Drag and Drop
--Redux Saga
--More flexibility to manage your tasks
+- Drag and Drop
+- Redux Saga
+- More flexibility to manage your tasks
 
 Motivation
 react-redux-todo-list exists to manage your tasks, be effective and don't forget any good ideas which can change this world.
 
 Author
-Alex Shostka @alex-shostka
+
+Alex Shostka [@alex-shostka](https://github.com/alex-shostka)
