@@ -1,5 +1,4 @@
-<p align="center">
-react-redux-todo-list </p>
+<p align="center">react-redux-todo-list</p>
 
 <p align="center">Create and store your tasks - be effective - be amazing</p>
 
@@ -20,7 +19,7 @@ react-redux-todo-list </p>
 - save tasks in MongoDB
 - signup for saving tasks and manage you profile
 
-Features below will be added soon:
+## Features below will be added soon:
 - Drag and Drop
 - Redux Saga
 - More flexibility to manage your tasks
